@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    >
+    <solid android:color="@color/colorAccent" />
+    <padding
+        android:bottom="@dimen/dp_20"
+        android:top="@dimen/dp_20"
+        android:right="@dimen/dp_20"
+        android:left="@dimen/dp_20"/>
+   <size android:width="@dimen/oval_raduis_button" android:height="@dimen/oval_raduis_button"/>
+
+</shape>

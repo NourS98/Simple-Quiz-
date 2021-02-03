@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="background_color_height">300dp</dimen>
+    <dimen name="title_txtsize">60sp</dimen>
+    <dimen name="question_txtsize">45sp</dimen>
+    <dimen name="choise_txtsize">40sp</dimen>
+    <dimen name="margin_choise_txtsize">60sp</dimen>
+    <dimen name="margin_confirm_button">20sp</dimen>
+
+</resources>

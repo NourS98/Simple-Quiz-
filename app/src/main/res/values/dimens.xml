@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_30">30sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
+    <dimen name="simple_quiz_size">45sp</dimen>
+    <dimen name="start_btn_raduis">3sp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_25">25sp</dimen>
+    <dimen name="margin_confirm_button">10sp</dimen>
+    <dimen name="margin_choise_txtsize">40sp</dimen>
+    <dimen name="title_txtsize">@dimen/dp_30</dimen>
+    <dimen name="question_txtsize">@dimen/dp_25</dimen>
+    <dimen name="choise_txtsize">@dimen/dp_20</dimen>
+    <dimen name="top_margin_radioGroup">15dp</dimen>
+    <dimen name="oval_raduis_button">140sp</dimen>
+    <dimen name="background_color_height">200dp</dimen>
+
+</resources>

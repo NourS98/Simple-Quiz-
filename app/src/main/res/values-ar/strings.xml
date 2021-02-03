@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">اختبار قصير</string>
+    <string name="start_btn">ابدأ</string>
+    <string name="Question">السؤال</string>
+    <string name="Q1_5">١</string>
+
+
+    <string name="Q1">ما هو نظام التشغيل الأكثر انتشارا في العالم ؟</string>
+    <string name="Choice2_Q1">أندرويد</string>
+    <string name="Choice3_Q1">ويندوز فون</string>
+
+    <string name="Q2_5">۲</string>
+    <string name="Q2">ما هي لغة البرمجة التي نستخدمها لبرمجة تطبيقات أندرويد ؟</string>
+    <string name="Choice1_Q2">بايثون</string>
+    <string name="Choice2_Q2">جافا سكربت</string>
+    <string name="Choice3_Q2">جافا</string>
+
+    <string name="Q3_5">۳</string>
+    <string name="Q3">ما هي بيئة التطوير الرسمية المستخدمة في تطوير تطبيقات أندرويد ؟</string>
+    <string name="Choice1_Q3">بيئة تطوير أندرويد المتكاملة</string>
+    <string name="Choice2_Q3">أندرويد ستوديو</string>
+    <string name="Choice3_Q3">اكيلبس</string>
+
+    <string name="Q4_5">٤</string>
+    <string name="Q4">ما هو إسم الشركة المطورة لنظام أندرويد ؟</string>
+    <string name="Choice1_Q4">فيسبوك</string>
+    <string name="Choice2_Q4">يوداستي</string>
+    <string name="Choice3_Q4">جوجل</string>
+
+
+    <string name="Q5_5">٥</string>
+    <string name="Q5">ما هو آخر إصدار من نظام أندرويد ؟</string>
+    <string name="Choice1_Q5">Pie</string>
+    <string name="Choice2_Q5">11</string>
+    <string name="Choice3_Q5">Oreo</string>
+    <string name="Confirm">تأكيد</string>
+    <string name="Choice1_Q1">iOS</string>
+    <string name="Next">التالي</string>
+    <string name="result">النتيجة</string>
+
+    <string-array name="Question_1">
+        <item>ما هو نظام التشغيل الأكثر انتشارا في العالم ؟</item>
+        <item>iOS</item>
+        <item>أندرويد</item>
+        <item>ويندوز أيفون</item>
+    </string-array>
+
+    <string-array name="Question_2">
+        <item>ما هي لغة البرمجة التي نستخدمها لبرمجة تطبيقات أندرويد ؟</item>
+        <item>بايثون</item>
+        <item>جاقا سكربت</item>
+        <item>جافا</item>
+    </string-array>
+
+    <string-array name="Question_3">
+        <item>ما هي بيئة التطوير الرسمية المستخدمة في تطوير تطبيقات أندرويد ؟</item>
+        <item>بيئة تطوير أندرويد المتكاملة</item>
+        <item>أندرويد ستوديو</item>
+        <item>ايكلبس</item>
+    </string-array>
+
+    <string-array name="Question_4">
+        <item>ما هو إسم الشركة المطورة لنظام أندرويد ؟</item>
+        <item>فيسبوك</item>
+        <item>يودستي</item>
+        <item>جوجل</item>
+    </string-array>
+
+    <string-array name="Question_5">
+        <item>ما هو آخر إصدار من نظام أندرويد ؟</item>
+        <item>Pie</item>
+        <item>11</item>
+        <item>Oreo</item>
+    </string-array>
+
+
+    <string name="finish" >إنهاء</string>
+
+</resources>

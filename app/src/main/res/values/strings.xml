@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Simple Quiz</string>
+    <string name="start_btn">Start</string>
+    <string name="Question">Question</string>
+    <string name="Q1_5">1</string>
+    <string name="totalQuestion" translatable="false">%1$d</string>
+    <string name="score" translatable="false">%1$d</string>
+
+    <string name="Q1">What is the most popular mobile OS in the world ?</string>
+    <string name="Choice1_Q1">iOS</string>
+    <string name="Choice2_Q1">Android</string>
+    <string name="Choice3_Q1">Windows Phone</string>
+
+    <string name="Q2">What programming language we use to develop Android apps ?</string>
+    <string name="Choice1_Q2">Python</string>
+    <string name="Choice2_Q2">JavaScript</string>
+    <string name="Choice3_Q2">Java</string>
+
+    <string name="Q3">What is the official IDE for Android development ?</string>
+    <string name="Choice1_Q3">Android IDE</string>
+    <string name="Choice2_Q3">Android Studio</string>
+    <string name="Choice3_Q3">Eclipse</string>
+
+    <string name="Q4">What is the name of the company that develop Android platform ?</string>
+    <string name="Choice1_Q4">Facebook</string>
+    <string name="Choice2_Q4">Udacity</string>
+    <string name="Choice3_Q4">Google</string>
+
+
+    <string name="Q5">What is the latest version of Android ?</string>
+    <string name="Choice1_Q5">Pie</string>
+    <string name="Choice2_Q5">11</string>
+    <string name="Choice3_Q5">Oreo</string>
+
+    <string name="Q2_5">2</string>
+    <string name="Q3_5">3</string>
+    <string name="Q4_5">4</string>
+    <string name="Q5_5">5</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Next">Next</string>
+    <string name="result">Result</string>
+
+
+
+
+
+    <string-array name="Question_1">
+        <item>What is the most popular mobile OS in the world ?</item>
+        <item>iOS</item>
+        <item>Android</item>
+        <item>Windows Phone</item>
+    </string-array>
+
+    <string-array name="Question_2">
+        <item>What programming language we use to develop Android apps ?</item>
+        <item>Python</item>
+        <item>Java Script</item>
+        <item>Java</item>
+    </string-array>
+
+    <string-array name="Question_3">
+        <item>What is the official IDE for Android development ?</item>
+        <item>Android IDE</item>
+        <item>Android Studio</item>
+        <item>Eclipse</item>
+    </string-array>
+
+    <string-array name="Question_4">
+        <item>What is the name of the company that develop Android platform ?</item>
+        <item>Facebook</item>
+        <item>Udacity</item>
+        <item>Google</item>
+    </string-array>
+
+    <string-array name="Question_5">
+        <item>What is the latest version of Android ?</item>
+        <item>Pie</item>
+        <item>11</item>
+        <item>Oreo</item>
+    </string-array>
+
+
+
+    <string name="finalResult" translatable="false">%1$d / %2$d</string>
+    <string name="finish" >Finish</string>
+
+</resources>

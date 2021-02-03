@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/background_color_height"
+        android:background="@drawable/title_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/left_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Question"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/total"
+        style="@style/right_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/totalQuestion"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/Question_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="sans-serif"
+        tools:text="@string/Q1_5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_txtsize"
+        app:layout_constraintEnd_toStartOf="@+id/slash"
+        app:layout_constraintTop_toTopOf="@+id/total" />
+
+    <TextView
+        android:id="@+id/slash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="/"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_txtsize"
+        app:layout_constraintEnd_toStartOf="@+id/total"
+        app:layout_constraintTop_toTopOf="@+id/total" />
+
+    <TextView
+        android:id="@+id/Question_content"
+        style="@style/left_title_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/question_txtsize"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/Q1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_choise_txtsize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/Choice1_Q1"
+            android:textSize="@dimen/choise_txtsize"
+            android:textDirection="locale"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            tools:text="@string/Choice2_Q1"
+            android:textSize="@dimen/choise_txtsize"
+            android:textDirection="locale"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            tools:text="@string/Choice3_Q1"
+            android:textSize="@dimen/choise_txtsize"
+            android:textDirection="locale"
+            />
+
+
+    </RadioGroup>
+
+    <Button
+        android:onClick="confirm_click_handler"
+        android:id="@+id/confirm_btn"
+        style="@style/start_button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Confirm"
+        android:layout_marginTop="@dimen/margin_confirm_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.18"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

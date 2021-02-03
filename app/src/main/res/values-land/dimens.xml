@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oval_raduis_button">120sp</dimen>
+    <dimen name="top_margin_radioGroup">15dp</dimen>
+    <dimen name="background_color_height">150dp</dimen>
+
+</resources>
